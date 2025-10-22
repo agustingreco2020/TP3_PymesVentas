@@ -28,9 +28,9 @@ src/
          ├─ GestorUsuarios.java
          └─ GestorVentas.java
 
-- Paquete modelo: Contiene las clases base que representan las entidades del sistema.
-- Paquete servicio: Implementa los gestores que manipulan los datos y ejecutan la lógica del negocio.
-- Main.java: Clase principal que ejecuta el menú y coordina la interacción entre gestores y entidades.
+- **Paquete modelo:** Contiene las clases base que representan las entidades del sistema.
+- **Paquete servicio:** Implementa los gestores que manipulan los datos y ejecutan la lógica del negocio.
+- **Main.java:** Clase principal que ejecuta el menú y coordina la interacción entre gestores y entidades.
 
 ## ⚙️ Funcionalidades principales
 El sistema permite realizar las siguientes operaciones:
@@ -41,13 +41,23 @@ El sistema permite realizar las siguientes operaciones:
 - Generación de reportes de ventas por fecha y totales acumulados.
 
 ## 🧩 Tecnologías utilizadas
-- Encapsulamiento: Atributos privados y métodos públicos de acceso.
-- Abstracción: Separación de responsabilidades mediante capas (modelo y servicio).
-- Polimorfismo y herencia: Uso de clases y métodos que permiten extender y modificar comportamientos.
-- Manejo de excepciones: Control de errores al ingresar datos por teclado.
-- Estructuras de control: Condiciones y bucles en la lógica de menú y validación.
+- **Encapsulamiento:** Atributos privados y métodos públicos de acceso.
+- **Abstracción:** Separación de responsabilidades mediante capas (modelo y servicio).
+- **Polimorfismo y herencia:** Uso de clases y métodos que permiten extender y modificar comportamientos.
+- **Manejo de excepciones:** Control de errores al ingresar datos por teclado.
+- **Estructuras de control:** Condiciones y bucles en la lógica de menú y validación.
+
+## 💻 Ejecución del programa
+1. Clonar el repositorio:
+git clone https://github.com/agustingreco2020/TP3_PymesVentas.git
+2. Abrir el proyecto en Eclipse IDE o Intellij IDEA.
+3. Compilar y ejecutar la clase:
+   src/app/Main.java
 
 ## 🧠 Conceptos aplicados
 - **Lenguaje:** Java SE 17  
 - **IDE:** Eclipse IDE  
 - **Paradigma:** Programación Orientada a Objetos (POO)
+
+## 📊 Conclusión
+El desarrollo permitió aplicar en Java los conceptos teóricos vistos durante la cursada, integrando la gestión de datos y las estructuras de control con un enfoque orientado a objetos. El resultado es un prototipo funcional que reproduce la lógica del sistema de ventas diseñado en los trabajos prácticos anteriores.
