@@ -51,8 +51,10 @@ El sistema permite realizar las siguientes operaciones:
 1. Clonar el repositorio:
    
 git clone https://github.com/agustingreco2020/TP3_PymesVentas.git
-3. Abrir el proyecto en Eclipse IDE o Intellij IDEA.
-4. Compilar y ejecutar la clase:
+
+2. Abrir el proyecto en Eclipse IDE o Intellij IDEA.
+
+3. Compilar y ejecutar la clase:
    src/app/Main.java
 
 ## 🧠 Conceptos aplicados
